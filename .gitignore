@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Output data & logs
+*_enriched.xlsx
+*_emails_only.txt
+*.log
+
+# IDE & Agent metadata
+.vscode/
+.idea/
+.claude/
+.agents/
+.streamlit/secrets.toml
